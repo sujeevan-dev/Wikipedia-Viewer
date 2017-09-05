@@ -34,7 +34,6 @@ section#two input {
 
 
 section#two #ipt {
-	position: relative;
 	text-align: center;
 }
 
@@ -45,13 +44,14 @@ section#two .btn {
 }
 
 section#two #bg {
-	position: relative;
 	text-align: center;
 }
 
 section#result {
 	width: 90%;
 	height: auto;
+	background: #ffffff;
+	margin: 0 auto;
 }
 
 footer {
