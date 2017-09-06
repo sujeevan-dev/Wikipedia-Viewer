@@ -25,8 +25,4 @@ $(document).ready(function() {
     }
   });
 
-  // removing the outline of the buttons when clicked
-  $('#getResult, #randomResult').click(function() {
-    $(this).blur();
-  });
 });
