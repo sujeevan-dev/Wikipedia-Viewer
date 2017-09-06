@@ -7,8 +7,9 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
 </head>
-<body>
-	<header><h1>WIKIPEDIA VIEWER</h1></header>
+<body>	
+	<div id="wrapper">
+		<header><h1>WIKIPEDIA VIEWER</h1></header>
 
 		<section id="one">
 			<img alt="Wikipedia Logo" src="http://www.audiencebloom.com/wp-content/uploads/2016/02/Wikipedia.png" width="35%" height="25%">
@@ -16,21 +17,24 @@
 		<br>
 		<section id="two">
 			<div id="ipt">
-			<input type="search" name="search" placeholder="What do you want to search ?">
+			<input type="search" id="search" placeholder="What do you want to know ?" autofocus>
 			</div>
-			<br>
+ 			<br>
 
 			<div id="bg">
-			<button class="btn" type="button">Search</button>
+			<button id="getResult" class="btn" type="button">Search</button>
 			<a href="https://en.wikipedia.org/wiki/Special:Random" title="Random Article" target="_blank"><button class="btn" type="button">Random</button></a>
 			</div>
 		</section>
 		<br>
-		<section id="result">
-			
+		<section>
+			<ul>
+				
+			</ul>
 		</section>
 		<br>
 	<footer>Copyright &copy; Sujeevan 2017</footer>
+	</div>
 
 	<!--Main JS file-->
 	<script type="text/javascript" src="main.js"></script>
