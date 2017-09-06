@@ -1,9 +1,18 @@
 body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 90%;
 	background: #f6f6f6;
+	margin: 0 auto;
+	border: 0.3rem solid #f6f6f6;
 }
 
 header {
 	text-align: center;
+	padding: 0.5rem;
 }
 
 header h1{
@@ -33,6 +42,11 @@ section#two input {
 }
 
 
+input::placeholder {
+	color: grey;
+	text-align: center;
+}
+
 section#two #ipt {
 	text-align: center;
 }
@@ -47,14 +61,57 @@ section#two #bg {
 	text-align: center;
 }
 
-section#result {
-	width: 90%;
+section {
+	background: #f6f6f6;
+}
+
+section ul {
+	padding: 1rem;
 	height: auto;
 	background: #ffffff;
 	margin: 0 auto;
+	text-decoration: none;
+	list-style: none;
+
 }
 
+section#result ul li {
+	padding: 1rem 0;
+	list-style: none;
+	margin: 1rem 0;
+	background: #ffffff;
+	border: 1rem solid #f6f6f6;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+section#result ul li:hover {
+	border: 1rem solid rgba(158, 158, 158, 0.44);
+}
+
+section#result a {
+  display: block;
+  margin: 10px;
+  padding: 0 50px;
+  padding: 20px;
+  text-align: justify;
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+h1 {
+	color: blue;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+
 footer {
+	clear: both;
 	padding: 1rem;
 	background: #f6f6f6;
 	text-align: center;
