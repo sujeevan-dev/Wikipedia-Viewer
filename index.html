@@ -5,6 +5,7 @@
 	<meta name="content" content="device-width, initial-scale=1">
 		<title>Wikipedia Viewer</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
 </head>
 <body>	
@@ -17,17 +18,18 @@
 		<br>
 		<section id="two">
 			<div id="ipt">
-			<input type="search" id="search" placeholder="What do you want to know ?" autofocus>
+				<input type="search" id="search" placeholder="Search Wikipedia" autofocus>
 			</div>
  			<br>
-
 			<div id="bg">
-			<button id="getResult" class="btn" type="button">Search</button>
-			<a href="https://en.wikipedia.org/wiki/Special:Random" title="Random Article" target="_blank"><button class="btn" type="button">Random</button></a>
+				<button id="getResult" class="btn" type="search">Search</button>
+				<a href="https://en.wikipedia.org/wiki/Special:Random" title="Random Article" target="_blank">
+					<button class="btn" type="button">Random</button>
+				</a>
 			</div>
 		</section>
 		<br>
-		<section>
+		<section id="result">
 			<ul>
 				
 			</ul>
